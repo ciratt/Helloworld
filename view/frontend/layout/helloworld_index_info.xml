@@ -1,0 +1,34 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
+	    <body>
+	        <referenceContainer name="content">
+	            <block class="Ciratt\Helloworld\Block\Indexinfo" name="Indexinfo" template="info.phtml" />
+	        </referenceContainer>
+	        
+	        <referenceContainer name="before.body.end">
+			    <block class="Magento\Framework\View\Element\Text" name="exampleScript">
+			        <arguments>
+			            <argument name="text" 
+			            	xsi:type="string"><![CDATA[<script>
+			            	var map;
+						      function initMap() {
+						      
+						      myLatLng = {lat: 45.6637845, lng: 12.2401656};
+						      
+						        map = new google.maps.Map(document.getElementById('map'), {
+						          center: myLatLng,
+						          zoom: 18
+						        });
+						        
+						        var marker = new google.maps.Marker({
+						          position: myLatLng,
+						          map: map,
+						          title: 'Via degli Absidi, 14'
+						        });
+						        
+						      }</script>
+			            	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJNiNN-Fv8l3LhuYIJ3cmEJZTK1lV1L-w&callback=initMap" async defer></script>]]></argument>
+			        </arguments>
+			    </block>
+			</referenceContainer>
+    	</body>
+</page>
