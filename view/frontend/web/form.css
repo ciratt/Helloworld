@@ -1,0 +1,18 @@
+.mage-form {
+	border: 1px solid;
+}
+
+.mage-form input.form-input {
+	width: 300px;
+}
+
+#map {
+	height: 500px;
+	width: 700px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
