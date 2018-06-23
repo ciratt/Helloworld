@@ -5,11 +5,9 @@
     </head>
     <body>
         <attribute name="class" value="page-with-filter"/>
-          <!--  
         <referenceContainer name="header.panel">
             <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="header.links" template="switch/stores.phtml"/>
         </referenceContainer>
-         -->          
         <referenceContainer name="content">
             <block class="\Magento\Catalog\Block\Product\ListProduct" name="product_list"
                    template="Magento_Catalog::product/list.phtml">
