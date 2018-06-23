@@ -1,0 +1,7 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
+    <body>
+        <referenceContainer name="header.panel">
+            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="header.links" template="switch/stores.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
