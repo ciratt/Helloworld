@@ -1,0 +1,5 @@
+sku,name,attribute set id,categiories,status,typeId,price,websiteIds,categoryIds,urlKey,min_sale_qty,max_sale_qty,is_in_stock,qty
+tar01,taralli,4,Alimentari,1,simple,4,1,42,taralli,1,10,1,30
+foc01,focaccia,4,Alimentari,1,simple,7,1,42,focaccia,1,5,1,40
+foc02,focaccia barese,4,Alimentari,1,simple,6.5,1,42,Focaccia-barese,1,10,1,40
+pan01,panini,4,Alimentari,1,simple,6.5,1,42,panini,1,5,1,55
